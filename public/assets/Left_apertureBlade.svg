@@ -1,0 +1,113 @@
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M150 0C232.843 0 300 67.1573 300 150C300 232.843 232.843 300 150 300C67.1573 300 0 232.843 0 150C0 67.1573 67.1573 0 150 0ZM150 15C75.4416 15 15 75.4416 15 150C15 224.558 75.4416 285 150 285C224.558 285 285 224.558 285 150C285 75.4416 224.558 15 150 15Z" fill="#F6F7F9"/>
+<path d="M150 0.0498047C232.815 0.0498047 299.95 67.1849 299.95 150C299.95 232.815 232.815 299.95 150 299.95C67.1849 299.95 0.0498047 232.815 0.0498047 150C0.0498047 67.1849 67.1849 0.0498047 150 0.0498047ZM150 14.9502C75.4139 14.9502 14.9502 75.4139 14.9502 150C14.9502 224.586 75.4139 285.05 150 285.05C224.586 285.05 285.05 224.586 285.05 150C285.05 75.4139 224.586 14.9502 150 14.9502Z" stroke="#2B2B5C" stroke-opacity="0.5" stroke-width="0.1"/>
+<g opacity="0.3" filter="url(#filter0_d_2062_972)">
+<circle cx="150" cy="150" r="90" fill="#A0CFFF"/>
+</g>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M150 15C224.558 15 285 75.4416 285 150C285 224.558 224.558 285 150 285C75.4416 285 15 224.558 15 150C15 75.4416 75.4416 15 150 15ZM150 30C83.7258 30 30 83.7258 30 150C30 216.274 83.7258 270 150 270C216.274 270 270 216.274 270 150C270 83.7258 216.274 30 150 30Z" fill="#E9EEF3"/>
+<path d="M150 15.0498C224.531 15.0498 284.95 75.4692 284.95 150C284.95 224.531 224.531 284.95 150 284.95C75.4692 284.95 15.0498 224.531 15.0498 150C15.0498 75.4692 75.4692 15.0498 150 15.0498ZM150 29.9502C83.6982 29.9502 29.9502 83.6982 29.9502 150C29.9502 216.302 83.6982 270.05 150 270.05C216.302 270.05 270.05 216.302 270.05 150C270.05 83.6982 216.302 29.9502 150 29.9502Z" stroke="#2B2B5C" stroke-opacity="0.5" stroke-width="0.1"/>
+<g filter="url(#filter1_di_2062_972)">
+<circle cx="150" cy="150.658" r="138.5" stroke="#AFD2ED" stroke-opacity="0.35" shape-rendering="crispEdges"/>
+</g>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M150 30C216.274 30 270 83.7258 270 150C270 216.274 216.274 270 150 270C83.7258 270 30 216.274 30 150C30 83.7258 83.7258 30 150 30ZM150 45C92.0101 45 45 92.0101 45 150C45 207.99 92.0101 255 150 255C207.99 255 255 207.99 255 150C255 92.0101 207.99 45 150 45Z" fill="#DBE4EC"/>
+<path d="M150 30.0498C216.247 30.0498 269.95 83.7534 269.95 150C269.95 216.247 216.247 269.95 150 269.95C83.7534 269.95 30.0498 216.247 30.0498 150C30.0498 83.7534 83.7534 30.0498 150 30.0498ZM150 44.9502C91.9825 44.9502 44.9502 91.9825 44.9502 150C44.9502 208.018 91.9825 255.05 150 255.05C208.018 255.05 255.05 208.018 255.05 150C255.05 91.9825 208.018 44.9502 150 44.9502Z" stroke="#28285C" stroke-opacity="0.5" stroke-width="0.1"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M150 45C207.99 45 255 92.0101 255 150C255 207.99 207.99 255 150 255C92.0101 255 45 207.99 45 150C45 92.0101 92.0101 45 150 45ZM150 60C100.294 60 60 100.294 60 150C60 199.706 100.294 240 150 240C199.706 240 240 199.706 240 150C240 100.294 199.706 60 150 60Z" fill="url(#paint0_linear_2062_972)"/>
+<path d="M150 45.0498C207.962 45.0498 254.95 92.0377 254.95 150C254.95 207.962 207.962 254.95 150 254.95C92.0377 254.95 45.0498 207.962 45.0498 150C45.0498 92.0377 92.0377 45.0498 150 45.0498ZM150 59.9502C100.267 59.9502 59.9502 100.267 59.9502 150C59.9502 199.733 100.267 240.05 150 240.05C199.733 240.05 240.05 199.733 240.05 150C240.05 100.267 199.733 59.9502 150 59.9502Z" stroke="#BFD0DB" stroke-opacity="0.5" stroke-width="0.1"/>
+<circle opacity="0.5" cx="150" cy="150" r="45" fill="#4A90E2"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M150 60C199.706 60 240 100.294 240 150C240 199.706 199.706 240 150 240C100.294 240 60 199.706 60 150C60 100.294 100.294 60 150 60ZM150 75C108.579 75 75 108.579 75 150C75 191.421 108.579 225 150 225C191.421 225 225 191.421 225 150C225 108.579 191.421 75 150 75Z" fill="url(#paint1_linear_2062_972)"/>
+<path d="M150 60.0498C199.678 60.0498 239.95 100.322 239.95 150C239.95 199.678 199.678 239.95 150 239.95C100.322 239.95 60.0498 199.678 60.0498 150C60.0498 100.322 100.322 60.0498 150 60.0498ZM150 74.9502C108.551 74.9502 74.9502 108.551 74.9502 150C74.9502 191.449 108.551 225.05 150 225.05C191.449 225.05 225.05 191.449 225.05 150C225.05 108.551 191.449 74.9502 150 74.9502Z" stroke="#39397D" stroke-opacity="0.5" stroke-width="0.1"/>
+<circle cx="150" cy="150" r="79.5" stroke="#A6C9DF" stroke-opacity="0.5"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M150 75C191.421 75 225 108.579 225 150C225 191.421 191.421 225 150 225C108.579 225 75 191.421 75 150C75 108.579 108.579 75 150 75ZM150 90C116.863 90 90 116.863 90 150C90 183.137 116.863 210 150 210C183.137 210 210 183.137 210 150C210 116.863 183.137 90 150 90Z" fill="url(#paint2_linear_2062_972)"/>
+<path d="M150 75.0498C191.394 75.0498 224.95 108.606 224.95 150C224.95 191.394 191.394 224.95 150 224.95C108.606 224.95 75.0498 191.394 75.0498 150C75.0498 108.606 108.606 75.0498 150 75.0498ZM150 89.9502C116.835 89.9502 89.9502 116.835 89.9502 150C89.9502 183.165 116.835 210.05 150 210.05C183.165 210.05 210.05 183.165 210.05 150C210.05 116.835 183.165 89.9502 150 89.9502Z" stroke="#39397D" stroke-opacity="0.5" stroke-width="0.1"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M150 90C183.137 90 210 116.863 210 150C210 183.137 183.137 210 150 210C116.863 210 90 183.137 90 150C90 116.863 116.863 90 150 90ZM150 105C125.147 105 105 125.147 105 150C105 174.853 125.147 195 150 195C174.853 195 195 174.853 195 150C195 125.147 174.853 105 150 105Z" fill="url(#paint3_linear_2062_972)"/>
+<path d="M150 90.0498C183.109 90.0498 209.95 116.891 209.95 150C209.95 183.109 183.109 209.95 150 209.95C116.891 209.95 90.0498 183.109 90.0498 150C90.0498 116.891 116.891 90.0498 150 90.0498ZM150 104.95C125.12 104.95 104.95 125.12 104.95 150C104.95 174.88 125.12 195.05 150 195.05C174.88 195.05 195.05 174.88 195.05 150C195.05 125.12 174.88 104.95 150 104.95Z" stroke="#1A1A2A" stroke-opacity="0.5" stroke-width="0.1"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M150 105C174.853 105 195 125.147 195 150C195 174.853 174.853 195 150 195C125.147 195 105 174.853 105 150C105 125.147 125.147 105 150 105ZM150 120C133.431 120 120 133.431 120 150C120 166.569 133.431 180 150 180C166.569 180 180 166.569 180 150C180 133.431 166.569 120 150 120Z" fill="url(#paint4_linear_2062_972)"/>
+<path d="M150 105.05C174.825 105.05 194.95 125.175 194.95 150C194.95 174.825 174.825 194.95 150 194.95C125.175 194.95 105.05 174.825 105.05 150C105.05 125.175 125.175 105.05 150 105.05ZM150 119.95C133.404 119.95 119.95 133.404 119.95 150C119.95 166.596 133.404 180.05 150 180.05C166.596 180.05 180.05 166.596 180.05 150C180.05 133.404 166.596 119.95 150 119.95Z" stroke="#1A1A2A" stroke-opacity="0.5" stroke-width="0.1"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M150 120C166.569 120 180 133.431 180 150C180 166.569 166.569 180 150 180C133.431 180 120 166.569 120 150C120 133.431 133.431 120 150 120ZM150 135C141.716 135 135 141.716 135 150C135 158.284 141.716 165 150 165C158.284 165 165 158.284 165 150C165 141.716 158.284 135 150 135Z" fill="url(#paint5_linear_2062_972)"/>
+<path d="M150 120.05C166.541 120.05 179.95 133.459 179.95 150C179.95 166.541 166.541 179.95 150 179.95C133.459 179.95 120.05 166.541 120.05 150C120.05 133.459 133.459 120.05 150 120.05ZM150 134.95C141.688 134.95 134.95 141.688 134.95 150C134.95 158.312 141.688 165.05 150 165.05C158.312 165.05 165.05 158.312 165.05 150C165.05 141.688 158.312 134.95 150 134.95Z" stroke="#256AAC" stroke-opacity="0.5" stroke-width="0.1"/>
+<g opacity="0.7" filter="url(#filter2_dd_2062_972)">
+<circle cx="150" cy="150" r="15" fill="#284870"/>
+</g>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M150 135C158.284 135 165 141.716 165 150C165 158.284 158.284 165 150 165C141.716 165 135 158.284 135 150C135 141.716 141.716 135 150 135ZM150 145C147.239 145 145 147.239 145 150C145 152.761 147.239 155 150 155C152.761 155 155 152.761 155 150C155 147.239 152.761 145 150 145Z" fill="#0F3C5D"/>
+<path d="M150 135.05C158.257 135.05 164.95 141.743 164.95 150C164.95 158.257 158.257 164.95 150 164.95C141.743 164.95 135.05 158.257 135.05 150C135.05 141.743 141.743 135.05 150 135.05ZM150 144.95C147.211 144.95 144.95 147.211 144.95 150C144.95 152.789 147.211 155.05 150 155.05C152.789 155.05 155.05 152.789 155.05 150C155.05 147.211 152.789 144.95 150 144.95Z" stroke="#1A1A2A" stroke-opacity="0.5" stroke-width="0.1"/>
+<circle cx="150" cy="150" r="4.95" fill="#20344D" stroke="black" stroke-width="0.1"/>
+<g style="mix-blend-mode:soft-light" filter="url(#filter3_d_2062_972)">
+<circle cx="150" cy="150" r="15" fill="url(#paint6_radial_2062_972)" shape-rendering="crispEdges"/>
+</g>
+<defs>
+<filter id="filter0_d_2062_972" x="56" y="60" width="188" height="188" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_2062_972"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2062_972" result="shape"/>
+</filter>
+<filter id="filter1_di_2062_972" x="1" y="1.65845" width="298" height="298" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="5"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_2062_972"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2062_972" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="5"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.466667 0 0 0 0 0.8 0 0 0 0 1 0 0 0 0.4 0"/>
+<feBlend mode="normal" in2="shape" result="effect2_innerShadow_2062_972"/>
+</filter>
+<filter id="filter2_dd_2062_972" x="131" y="135" width="38" height="38" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_2062_972"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0"/>
+<feBlend mode="normal" in2="effect1_dropShadow_2062_972" result="effect2_dropShadow_2062_972"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_2062_972" result="shape"/>
+</filter>
+<filter id="filter3_d_2062_972" x="115" y="115" width="70" height="70" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="10"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_2062_972"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2062_972" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_2062_972" x1="150" y1="45" x2="150" y2="255" gradientUnits="userSpaceOnUse">
+<stop offset="1" stop-color="#BFD0DB"/>
+</linearGradient>
+<linearGradient id="paint1_linear_2062_972" x1="150" y1="60" x2="150" y2="240" gradientUnits="userSpaceOnUse">
+<stop offset="1" stop-color="#A1B4C6"/>
+</linearGradient>
+<linearGradient id="paint2_linear_2062_972" x1="150" y1="75" x2="150" y2="225" gradientUnits="userSpaceOnUse">
+<stop offset="1" stop-color="#7F9BB6"/>
+</linearGradient>
+<linearGradient id="paint3_linear_2062_972" x1="150" y1="90" x2="150" y2="210" gradientUnits="userSpaceOnUse">
+<stop offset="1" stop-color="#5C7C96"/>
+</linearGradient>
+<linearGradient id="paint4_linear_2062_972" x1="150" y1="105" x2="150" y2="195" gradientUnits="userSpaceOnUse">
+<stop offset="1" stop-color="#406481"/>
+</linearGradient>
+<linearGradient id="paint5_linear_2062_972" x1="150" y1="120" x2="150" y2="180" gradientUnits="userSpaceOnUse">
+<stop offset="1" stop-color="#274F70"/>
+</linearGradient>
+<radialGradient id="paint6_radial_2062_972" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(150 150) rotate(90) scale(15)">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>

@@ -1,0 +1,352 @@
+{
+  "E1": {
+    "text_ko": "가끔씩 멍하다.",
+    "text_en": "Sometimes I just zone out.",
+    "aperture": 27,
+    "label": [
+      "고립",
+      "혼란"
+    ],
+    "next": []
+  },
+  "E2": {
+    "text_ko": "가끔씩 잠이 안 온다",
+    "text_en": "I can't sleep sometimes, for no clear reason.",
+    "aperture": 20,
+    "label": [
+      "고립",
+      "혼란"
+    ],
+    "next": []
+  },
+  "E3": {
+    "text_ko": "안정적이지 않은 느낌이라 불안해",
+    "text_en": "I feel uneasy, like nothing's really stable.",
+    "aperture": 70,
+    "label": [
+      "억제",
+      "갈등"
+    ],
+    "next": []
+  },
+  "E4": {
+    "text_ko": "마치 나 혼자 섬에 있는 것 같아",
+    "text_en": "I feel like I’m stuck on an island, completely alone.",
+    "aperture": 15,
+    "label": [
+      "고립",
+      "혼란"
+    ],
+    "next": []
+  },
+  "E5": {
+    "text_ko": "돈 여유가 되면 장거리 여행 가고 싶어",
+    "text_en": "If I had the money, I’d take off on a long trip.",
+    "aperture": 60,
+    "label": [
+      "불안",
+      "자기불신"
+    ],
+    "next": []
+  },
+  "E6": {
+    "text_ko": "늘 생계가 불안정해",
+    "text_en": "Every job feels unstable, like I don’t belong anywhere.",
+    "aperture": 50,
+    "label": [
+      "불안",
+      "자기불신"
+    ],
+    "next": []
+  },
+  "E7": {
+    "text_ko": "성과가 약해. 책임질 수 있을까?",
+    "text_en": "I’m not sure I’m capable enough to take on real responsibility.",
+    "aperture": 70,
+    "label": [
+      "억제",
+      "갈등"
+    ],
+    "next": []
+  },
+  "E8": {
+    "text_ko": "앞으로 무슨 일을 하면 좋을까?",
+    "text_en": "I honestly don’t know what I should do with my life.",
+    "aperture": 50,
+    "label": [
+      "불안",
+      "자기불신"
+    ],
+    "next": []
+  },
+  "E9": {
+    "text_ko": "지금 아프면 안돼",
+    "text_en": "I can’t afford to get sick right now.",
+    "aperture": 34,
+    "label": [
+      "불안",
+      "자기불신"
+    ],
+    "next": []
+  },
+  "E10": {
+    "text_ko": "이 정도라도 감사해야겠지",
+    "text_en": "I guess I should just be grateful for what I have.",
+    "aperture": 70,
+    "label": [
+      "억제",
+      "갈등"
+    ],
+    "next": []
+  },
+  "E11": {
+    "text_ko": "나만 멈춰있는 것 같아",
+    "text_en": "It feels like everyone’s moving on but I’m just stuck.",
+    "aperture": 25,
+    "label": [
+      "고립",
+      "혼란"
+    ],
+    "next": []
+  },
+  "E12": {
+    "text_ko": "다들 잘 사는데 나만 힘들어",
+    "text_en": "Everyone else seems to be doing fine—why is it only hard for me?",
+    "aperture": 20,
+    "label": [
+      "고립",
+      "혼란"
+    ],
+    "next": []
+  },
+  "E13": {
+    "text_ko": "뒤처진 느낌이 싫어",
+    "text_en": "I hate feeling like I’m falling behind.",
+    "aperture": 26,
+    "label": [
+      "고립",
+      "혼란"
+    ],
+    "next": []
+  },
+  "E14": {
+    "text_ko": "기억이 가끔 사라진다",
+    "text_en": "Sometimes I just forget things out of nowhere.",
+    "aperture": 10,
+    "label": [
+      "고립",
+      "혼란"
+    ],
+    "next": []
+  },
+  "E15": {
+    "text_ko": "늘 일할 곳은 있어",
+    "text_en": "There’s always some kind of work to do.",
+    "aperture": 95,
+    "label": [
+      "수용",
+      "초월"
+    ],
+    "next": []
+  },
+  "E16": {
+    "text_ko": "사람들 이기적인 거 존중해",
+    "text_en": "I get it—people are selfish. I try to respect that.",
+    "aperture": 90,
+    "label": [
+      "수용",
+      "초월"
+    ],
+    "next": []
+  },
+  "E17": {
+    "text_ko": "낮은 감정 억압하고 살았어",
+    "text_en": "I’ve been suppressing my heavier emotions for years.",
+    "aperture": 80,
+    "label": [
+      "억제",
+      "갈등"
+    ],
+    "next": []
+  },
+  "E18": {
+    "text_ko": "내가 생각하는 삶은 아닌 것 같아",
+    "text_en": "This isn’t the kind of life I thought I’d live.",
+    "aperture": 50,
+    "label": [
+      "불안",
+      "자기불신"
+    ],
+    "next": []
+  },
+  "E19": {
+    "text_ko": "돈 부족해서 창피하진 않지만 불편해",
+    "text_en": "I’m not ashamed of being broke, but it’s definitely uncomfortable.",
+    "aperture": 80,
+    "label": [
+      "억제",
+      "갈등"
+    ],
+    "next": []
+  },
+  "E20": {
+    "text_ko": "현재에 집중을 못하겠어",
+    "text_en": "I can’t stay focused on the present at all.",
+    "aperture": 30,
+    "label": [
+      "고립",
+      "혼란"
+    ],
+    "next": []
+  },
+  "E21": {
+    "text_ko": "나만 힘들고 슬픈 것 같아",
+    "text_en": "It feels like I’m the only one struggling and hurting.",
+    "aperture": 30,
+    "label": [
+      "고립",
+      "혼란"
+    ],
+    "next": []
+  },
+  "E22": {
+    "text_ko": "난 특별한 존재라 믿어왔어",
+    "text_en": "I’ve always believed I was somehow different. Special, even.",
+    "aperture": 38,
+    "label": [
+      "불안",
+      "자기불신"
+    ],
+    "next": []
+  },
+  "E23": {
+    "text_ko": "또 독촉장이 날아왔어",
+    "text_en": "Another late notice came in. I just want to avoid it.",
+    "aperture": 50,
+    "label": [
+      "불안",
+      "자기불신"
+    ],
+    "next": []
+  },
+  "E24": {
+    "text_ko": "가끔 두근거려",
+    "text_en": "My heart races sometimes out of nowhere.",
+    "aperture": 30,
+    "label": [
+      "고립",
+      "혼란"
+    ],
+    "next": []
+  },
+  "E25": {
+    "text_ko": "책임감 없는 사람 너무 싫어",
+    "text_en": "I really can’t stand people who avoid responsibility.",
+    "aperture": 55,
+    "label": [
+      "불안",
+      "자기불신"
+    ],
+    "next": []
+  },
+  "E26": {
+    "text_ko": "무시당할까 봐 두려워",
+    "text_en": "I’m afraid people will look down on me because of my situation.",
+    "aperture": 40,
+    "label": [
+      "불안",
+      "자기불신"
+    ],
+    "next": []
+  },
+  "E27": {
+    "text_ko": "또 힘든 일 생길까봐 두려워",
+    "text_en": "I’m scared another hard thing is just around the corner.",
+    "aperture": 50,
+    "label": [
+      "불안",
+      "자기불신"
+    ],
+    "next": []
+  },
+  "E28": {
+    "text_ko": "지금 상태가 이상해",
+    "text_en": "I feel off, like something’s not right inside me.",
+    "aperture": 50,
+    "label": [
+      "불안",
+      "자기불신"
+    ],
+    "next": []
+  },
+  "E29": {
+    "text_ko": "이러다 그 일도 안되면 어쩌지?",
+    "text_en": "What if this doesn't work either? What will I do then?",
+    "aperture": 70,
+    "label": [
+      "억제",
+      "갈등"
+    ],
+    "next": []
+  },
+  "E30": {
+    "text_ko": "반드시 원하는 대로 돼야 해",
+    "text_en": "It has to go my way—I can’t handle it not working out.",
+    "aperture": 55,
+    "label": [
+      "불안",
+      "자기불신"
+    ],
+    "next": []
+  },
+  "E31": {
+    "text_ko": "감정은 사회에서 쓸모없어 보여",
+    "text_en": "Emotions feel useless in real life—especially at work.",
+    "aperture": 50,
+    "label": [
+      "불안",
+      "자기불신"
+    ],
+    "next": []
+  },
+  "E32": {
+    "text_ko": "지금 당장 쉴 수 없어",
+    "text_en": "I can’t afford to take a break right now.",
+    "aperture": 50,
+    "label": [
+      "불안",
+      "자기불신"
+    ],
+    "next": []
+  },
+  "E33": {
+    "text_ko": "난 나를 지켜내고 싶어",
+    "text_en": "I just want to protect what's left of me.",
+    "aperture": 70,
+    "label": [
+      "억제",
+      "갈등"
+    ],
+    "next": []
+  },
+  "E34": {
+    "text_ko": "혈관이 좁아지고 머리가 무거워",
+    "text_en": "My head feels heavy, like my blood isn’t flowing right.",
+    "aperture": 12,
+    "label": [
+      "고립",
+      "혼란"
+    ],
+    "next": []
+  },
+  "E35": {
+    "text_ko": "사람들이 알까 봐 두려워",
+    "text_en": "I’m scared people will find out what I’m really going through.",
+    "aperture": 40,
+    "label": [
+      "불안",
+      "자기불신"
+    ],
+    "next": []
+  }
+}

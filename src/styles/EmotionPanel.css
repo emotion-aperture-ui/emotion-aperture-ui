@@ -1,0 +1,19 @@
+/* EmotionPanel.css */
+@keyframes fadeUpCenter {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-up {
+  animation: fadeUpCenter 0.6s ease-out forwards;
+}
+position: fixed;
+top: 16px;
+right: 16px;
+z-index: 1000;
