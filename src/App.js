@@ -28,7 +28,7 @@ function App() {
             cursor: 'pointer',
           }}
         >
-          {lang === 'ko' ? '🇰🇷 한국어' : '🇺🇸 English'}
+          {lang === 'en' ? '🇺🇸 English' : '🇰🇷 한국어'}
         </button>
 
         <Routes> {/* ✅ Routes로 감싸고 각 Route 지정 */}
