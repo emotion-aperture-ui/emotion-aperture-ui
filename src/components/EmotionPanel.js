@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import data from '../data/EmotionQuestionData.json';
 import '../App.css';
 
@@ -12,14 +13,24 @@ const getRandomEmotions = (data, count = 4) => {
 const EmotionPanel = ({ lang = 'ko' }) => {
   const [randomEmotionIds, setRandomEmotionIds] = useState([]);
   const [selectedEmotionId, setSelectedEmotionId] = useState(null);
+  const navigate = useNavigate(); // ✅ 추가됨
 
   useEffect(() => {
     setRandomEmotionIds(getRandomEmotions(data, 4));
   }, []);
 
-  const handleEmotionClick = (id) => setSelectedEmotionId(id);
-  const selectedEmotion = selectedEmotionId ? data[selectedEmotionId] : null;
+  const handleEmotionClick = (id) => {
+  setSelectedEmotionId(id);
+  setTimeout(() => {
+    navigate('/nextpage', {
+      state: {
+        emotionId: id,
+      },
+    });
+  }, 500);
+};
 
+  const selectedEmotion = selectedEmotionId ? data[selectedEmotionId] : null;
   const getText = (item) => (item ? (lang === 'en' ? item.text_en : item.text_ko) : '');
 
   return (
@@ -35,7 +46,7 @@ const EmotionPanel = ({ lang = 'ko' }) => {
         flexWrap: 'wrap',
       }}
     >
-      {/* 좌측 조리개 + 감정 버튼 */}
+      {/* 좌측 감정 패널 */}
       <div style={{ position: 'relative', width: '100%', maxWidth: '420px', margin: '0 auto' }}>
         <img src="/assets/Emotion/EmotionLeft.svg" alt="Emotion Left" style={{ width: '100%', height: 'auto' }} />
         <div
@@ -77,7 +88,7 @@ const EmotionPanel = ({ lang = 'ko' }) => {
         </div>
       </div>
 
-      {/* 우측 조리개 + 질문 */}
+      {/* 우측 질문 패널 */}
       <div className="aperture-float" style={{ position: 'relative', width: '100%', maxWidth: '420px', margin: '0 auto' }}>
         <img src="/assets/Emotion/EmotionRight.svg" alt="Emotion Right" style={{ width: '100%', height: 'auto' }} />
         {selectedEmotion?.question && (
