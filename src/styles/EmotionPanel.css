@@ -58,9 +58,13 @@
   transform: scale(1.05);
 }
 
-.language-switcher {
-  position: fixed;
-  top: 16px;
-  right: 16px;
-  z-index: 1000;
+.language-switch-button {
+  position: absolute; /* or fixed */
+  top: 10px;
+  right: 10px;
+  z-index: 9999; /* 💥 이게 핵심 */
+}
+.aperture-background {
+  position: absolute;
+  z-index: 0; /* ✅ 그림을 뒤로 보냄 */
 }

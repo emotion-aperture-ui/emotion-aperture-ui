@@ -10,7 +10,7 @@ const getRandomEmotions = (data, count = 4) => {
   return [...keys].sort(() => 0.5 - Math.random()).slice(0, count);
 };
 
-const EmotionPanel = ({ lang = 'ko' }) => {
+const EmotionPanel = ({ lang = 'en' }) => {
   const [randomEmotionIds, setRandomEmotionIds] = useState([]);
   const [selectedEmotionId, setSelectedEmotionId] = useState(null);
   const navigate = useNavigate(); // ✅ 추가됨
@@ -25,6 +25,7 @@ const EmotionPanel = ({ lang = 'ko' }) => {
     navigate('/nextpage', {
       state: {
         emotionId: id,
+        lang: lang, 
       },
     });
   }, 500);
