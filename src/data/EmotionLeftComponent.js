@@ -20,7 +20,7 @@ const EmotionLeftComponent = ({ text }) => {
           left: '50%',
           transform: 'translateX(-50%)',
           color: 'white',
-          fontSize: '16px',
+          fontSize: 'clamp(14px, 4vw, 20px)',
           textAlign: 'center',
           wordBreak: 'break-word',
           whiteSpace: 'pre-wrap',

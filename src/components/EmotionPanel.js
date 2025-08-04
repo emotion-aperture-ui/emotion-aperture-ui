@@ -1,13 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import data from '../data/EmotionQuestionData.json';
-import '../App.css'; // ✨ 애니메이션 CSS 여기에 있다고 가정
+import '../App.css';
 
 const getRandomEmotions = (data, count = 4) => {
   const keys = Object.keys(data).filter(
-    (key) => data[key] && data[key].emotion && data[key].question
+    (key) => data[key]?.emotion && data[key]?.question
   );
-  const shuffled = [...keys].sort(() => 0.5 - Math.random());
-  return shuffled.slice(0, count);
+  return [...keys].sort(() => 0.5 - Math.random()).slice(0, count);
 };
 
 const EmotionPanel = ({ lang = 'ko' }) => {
@@ -15,20 +14,13 @@ const EmotionPanel = ({ lang = 'ko' }) => {
   const [selectedEmotionId, setSelectedEmotionId] = useState(null);
 
   useEffect(() => {
-    const randomIds = getRandomEmotions(data, 4);
-    setRandomEmotionIds(randomIds);
+    setRandomEmotionIds(getRandomEmotions(data, 4));
   }, []);
 
-  const handleEmotionClick = (id) => {
-    setSelectedEmotionId(id);
-  };
-
+  const handleEmotionClick = (id) => setSelectedEmotionId(id);
   const selectedEmotion = selectedEmotionId ? data[selectedEmotionId] : null;
 
-  const getText = (item) => {
-    if (!item) return '';
-    return lang === 'en' ? item.text_en : item.text_ko;
-  };
+  const getText = (item) => (item ? (lang === 'en' ? item.text_en : item.text_ko) : '');
 
   return (
     <div
@@ -36,23 +28,17 @@ const EmotionPanel = ({ lang = 'ko' }) => {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        padding: '40px',
+        padding: '20px',
         height: '100vh',
         backgroundColor: '#000',
-        gap: '60px',
+        gap: '40px',
+        flexWrap: 'wrap',
       }}
     >
-      {/* 좌측 조리개 + 감정 버튼들 */}
-      <div style={{ position: 'relative', width: '300px' }}>
-        <img
-          src="/assets/Emotion/EmotionLeft.svg"
-          alt="Emotion Left"
-          style={{ width: '100%' }}
-        />
-
-        {/* 감정 버튼들 - 좌측 조리개에 고정 정렬 */}
+      {/* 좌측 조리개 + 감정 버튼 */}
+      <div style={{ position: 'relative', width: '100%', maxWidth: '420px', margin: '0 auto' }}>
+        <img src="/assets/Emotion/EmotionLeft.svg" alt="Emotion Left" style={{ width: '100%', height: 'auto' }} />
         <div
-        
           style={{
             position: 'absolute',
             top: '21%',
@@ -60,8 +46,10 @@ const EmotionPanel = ({ lang = 'ko' }) => {
             transform: 'translateX(-50%)',
             display: 'flex',
             flexDirection: 'column',
-            gap: '17px',
+            gap: '14px',
             width: '80%',
+            maxWidth: '90%',
+            zIndex: 10,
           }}
         >
           {randomEmotionIds.map((id) => {
@@ -74,12 +62,12 @@ const EmotionPanel = ({ lang = 'ko' }) => {
                   cursor: 'pointer',
                   border: selectedEmotionId === id ? '2px solid #00ffcc' : '2px solid white',
                   borderRadius: '12px',
-                  padding: '7px',
+                  padding: '6px 10px',
                   textAlign: 'center',
                   color: 'white',
                   backgroundColor:
                     selectedEmotionId === id ? 'rgba(0,255,200,0.2)' : 'rgba(255,255,255,0.1)',
-                  fontSize: '14px',
+                  fontSize: 'clamp(16px, 4vw, 22px)',
                 }}
               >
                 {emotionItem ? getText(emotionItem) : '(감정 없음)'}
@@ -89,35 +77,27 @@ const EmotionPanel = ({ lang = 'ko' }) => {
         </div>
       </div>
 
-      {/* 우측 조리개 + 질문 (하늘하늘 애니메이션) */}
-      <div
-      
-        className="aperture-float"
-        style={{ position: 'relative', width: '300px' }}
-      >
-        <img
-          src="/assets/Emotion/EmotionRight.svg"
-          alt="Emotion Right"
-          style={{ width: '100%' }}
-        />
-        {selectedEmotion && selectedEmotion.question && (
+      {/* 우측 조리개 + 질문 */}
+      <div className="aperture-float" style={{ position: 'relative', width: '100%', maxWidth: '420px', margin: '0 auto' }}>
+        <img src="/assets/Emotion/EmotionRight.svg" alt="Emotion Right" style={{ width: '100%', height: 'auto' }} />
+        {selectedEmotion?.question && (
           <div
             style={{
-              top: '26%',
               position: 'absolute',
-              
+              top: '26%',
               left: '50%',
               transform: 'translateX(-50%)',
               color: 'white',
               textAlign: 'center',
-              padding: '12px 16px',
+              padding: '10px 14px',
               backgroundColor: 'rgba(0, 0, 0, 0.5)',
               borderRadius: '10px',
-              fontSize: '16px',
+              fontSize: 'clamp(16px, 4vw, 22px)',
               whiteSpace: 'pre-wrap',
+              maxWidth: '90%',
+              zIndex: 10,
             }}
           >
-            
             {getText(selectedEmotion.question)}
           </div>
         )}
