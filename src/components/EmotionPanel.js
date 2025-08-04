@@ -10,26 +10,31 @@ const getRandomEmotions = (data, count = 4) => {
   return [...keys].sort(() => 0.5 - Math.random()).slice(0, count);
 };
 
-const EmotionPanel = ({ lang = 'en' }) => {
+const EmotionPanel = () => {
+  const [lang, setLang] = useState('en');
   const [randomEmotionIds, setRandomEmotionIds] = useState([]);
   const [selectedEmotionId, setSelectedEmotionId] = useState(null);
-  const navigate = useNavigate(); // ✅ 추가됨
+  const navigate = useNavigate();
 
   useEffect(() => {
     setRandomEmotionIds(getRandomEmotions(data, 4));
   }, []);
 
   const handleEmotionClick = (id) => {
-  setSelectedEmotionId(id);
-  setTimeout(() => {
-    navigate('/nextpage', {
-      state: {
-        emotionId: id,
-        lang: lang, 
-      },
-    });
-  }, 500);
-};
+    setSelectedEmotionId(id);
+    setTimeout(() => {
+      navigate('/nextpage', {
+        state: {
+          emotionId: id,
+          lang: lang,
+        },
+      });
+    }, 500);
+  };
+
+  const toggleLang = () => {
+    setLang((prev) => (prev === 'en' ? 'ko' : 'en'));
+  };
 
   const selectedEmotion = selectedEmotionId ? data[selectedEmotionId] : null;
   const getText = (item) => (item ? (lang === 'en' ? item.text_en : item.text_ko) : '');
@@ -45,8 +50,28 @@ const EmotionPanel = ({ lang = 'en' }) => {
         backgroundColor: '#000',
         gap: '40px',
         flexWrap: 'wrap',
+        position: 'relative',
       }}
     >
+      {/* 🌐 언어 토글 버튼 */}
+      <button
+        onClick={toggleLang}
+        style={{
+          position: 'absolute',
+          top: 20,
+          right: 20,
+          padding: '6px 12px',
+          backgroundColor: 'black',
+          color: 'white',
+          border: '1px solid white',
+          borderRadius: '10px',
+          zIndex: 1000,
+          fontSize: '14px',
+        }}
+      >
+        {lang === 'en' ? '🇺🇸 English' : '🇰🇷 한국어'}
+      </button>
+
       {/* 좌측 감정 패널 */}
       <div style={{ position: 'relative', width: '100%', maxWidth: '420px', margin: '0 auto' }}>
         <img src="/assets/Emotion/EmotionLeft.svg" alt="Emotion Left" style={{ width: '100%', height: 'auto' }} />

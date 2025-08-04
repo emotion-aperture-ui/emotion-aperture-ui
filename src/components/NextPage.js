@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import data from '../data/EmotionQuestionData.json';
 
@@ -6,17 +6,18 @@ const NextPage = () => {
   const location = useLocation();
   const navigate = useNavigate();
 
-  const [lang, setLang] = useState(location.state?.lang || 'en');
+  const lang = location.state?.lang || 'en'; // ✅ 언어는 동적으로 받아옴
   const emotionId = location.state?.emotionId;
   const selectedData = emotionId ? data[emotionId] : null;
 
-  const getText = (item) =>
-    item ? (lang === 'en' ? item.text_en : item.text_ko) : '';
-<button onClick={() => setLang(lang === 'ko' ? 'en' : 'ko')}>
-  {lang === 'ko' ? 'English' : '한국어'}
-</button>
+  const getText = (item) => {
+    if (!item) return '';
+    return lang === 'ko' ? item.text_ko : item.text_en;
+  };
 
-  const isMobile = window.innerWidth <= 480;
+  const getButtonText = () => {
+    return lang === 'ko' ? '다시 감정 선택하기' : 'Choose Emotion Again';
+  };
 
   return (
     <div
@@ -32,38 +33,10 @@ const NextPage = () => {
         padding: '20px',
       }}
     >
-      {/* 🌐 언어 전환 버튼 (반응형 위치 조정) */}
-  <div
-  style={{
-    position: 'fixed', // ← 화면 스크롤과 무관하게 고정
-    top: '5%',
-    right: '5%',
-    zIndex: 9999, // ← 어떤 요소 위든 보이게
-    backgroundColor: '#ffffff88',
-    padding: '6px 12px',
-    borderRadius: '10px',
-  }}
->
-  <button
-    onClick={() => setLang(lang === 'ko' ? 'en' : 'ko')}
-    style={{
-      background: 'transparent',
-      border: 'none',
-      fontSize: '14px',
-      fontWeight: 'bold',
-      color: '#000',
-      cursor: 'pointer',
-    }}
-  >
-    {lang === 'ko' ? 'English' : '한국어'}
-  </button>
-</div>
-
-
-      {/* 🔘 배경 조리개 이미지 */}
+      {/* 🎯 배경 조리개 이미지 */}
       <img
         src="/assets/Emotion/EmotionRight.svg"
-        alt="조리개"
+        alt="iris"
         style={{
           position: 'absolute',
           top: '50%',
@@ -79,7 +52,7 @@ const NextPage = () => {
 
       {/* 🎯 감정 텍스트 */}
       <h2 style={{ fontSize: 'clamp(20px, 5vw, 28px)', zIndex: 1 }}>
-        🎯 {getText(selectedData?.emotion) || '감정 없음'}
+        🎯 {getText(selectedData?.emotion) || 'No Emotion'}
       </h2>
 
       {/* ❓ 질문 텍스트 */}
@@ -93,7 +66,7 @@ const NextPage = () => {
           whiteSpace: 'pre-wrap',
         }}
       >
-        {getText(selectedData?.question) || '질문 없음'}
+        {getText(selectedData?.question) || 'No Question'}
       </p>
 
       {/* 🔁 다시 감정 선택 버튼 */}
@@ -111,7 +84,7 @@ const NextPage = () => {
           zIndex: 1,
         }}
       >
-         {lang === 'ko' ? '다시 감정 선택하기' : 'Choose Emotion Again'}
+        {getButtonText()}
       </button>
     </div>
   );

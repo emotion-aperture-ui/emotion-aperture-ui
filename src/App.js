@@ -4,10 +4,10 @@ import EmotionPanel from './components/EmotionPanel.js';
 import NextPage from './components/NextPage.js'; // ✅ 다음 페이지 컴포넌트도 추가
 
 function App() {
-  const [lang, setLang] = useState('ko');
+  const [lang, setLang] = useState('en');
 
   const toggleLang = () => {
-    setLang((prev) => (prev === 'ko' ? 'en' : 'ko'));
+    setLang((prev) => (prev === 'en' ? 'en' : 'ko'));
   };
 
   return (
