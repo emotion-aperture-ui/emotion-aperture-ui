@@ -1,3 +1,15 @@
+
+# Emotion Aperture UI 🌿
+
+A question-based emotional interface starting from the aperture of feelings.
+
+When users tap on a feeling, a related emotional aperture is calculated  
+to deliver a resonant question — opening a moment for reflection.
+
+This is not just an app.  
+It's a remembering.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
